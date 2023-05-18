@@ -53,16 +53,17 @@ body{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: stretch;
+  align-items: center;
+}
+/* ether box */
+.ether-cnt{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 0.4rem;
 }
 /* ether logo and its value */
-.ether-img{
-  display: inline-block;
-  width: 0.5rem;
-}
-.ether-img img{
-  width: 100%;
-}
 .ether-cnt small{
   color: hsl(178, 100%, 50%);
 }
@@ -88,12 +89,14 @@ body{
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
+  align-items: center;
+  gap: 0.6rem;
 }
 .footer-img{
   width: 1.4rem;
-  margin-right: 0.8rem;
-  /* border: 1px solid hsl(0, 0%, 100%);
-  border-radius: 50%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .footer-img img{
   width: 100%;
@@ -102,7 +105,7 @@ body{
 }
 .content-footer small{
   color: hsl(215, 51%, 70%);
-  padding-top: 0.3rem;
+  /* padding-top: 0.3rem; */
 }
 .content-footer span{
   color: hsl(0, 0%, 100%);
